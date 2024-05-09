@@ -59,9 +59,13 @@ fn main() {
     println!("{}", upper_case(&name));
     println!("{}", first_character(&name));
     println!("{}",  n_character(&name, 2) );
-    
+
     println!("*** Numbers ***");
     println!("{}", numbers::add_numbers(2, 3));
+    println!("{}", numbers::subtract_numbers(24, 8));
+    println!("{}", numbers::power(2, 2));
+    println!("{}", numbers::round(4.9));
+    println!("{}", numbers::odd_or_even(3))
     
    
     
