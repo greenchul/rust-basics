@@ -2,6 +2,7 @@ mod numbers;
 mod arrays;
 mod strings;
 mod rectangles;
+mod enums;
 
 fn main() {
     println!("*** Strings ***");
@@ -14,6 +15,7 @@ fn main() {
     arrays::arrays();
 
     rectangles::rectangles();
+    enums::enums()
     
 }
 
